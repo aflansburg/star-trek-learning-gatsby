@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+html {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.canvas-warpfield-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150vh;
+  z-index: -1;
+}
+
+.main-title-div {
+  height: 100%;
+}
+
+.header-title {
+  color: #fff;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.engine-controls-container {
+  /* display: flex; */
+  /* align-items: baseline; */
+  /* justify-content: flex-start; */
+  margin-top: 10vh;
+}
+
+.engine-controls-item,
+p {
+  margin-left: 8px;
+  margin-top: 1rem;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.engine-button,
+.engine-button-active {
+  font-size: 14px;
+  cursor: "pointer";
+  width: 12rem;
+  height: 3rem;
+  margin-left: -1rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-style: none;
+  color: #000;
+}
+
+.engine-button {
+  background-color: #f89903;
+}
+
+.engine-button-active {
+  background-color: #9999ff;
+}
